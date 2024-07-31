@@ -1,15 +1,54 @@
 {
     "edition": [
         {
-            "title": "Basic English words for introductions",
+            "title": "Basic English phrases",
             "lessons": [
                 {
                     "path": "/shadowing-technique-english-lessons/greetings",
                     "backgroundImage": "linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)",
                     "title": "Greetings",
                     "translations": {
-                        "English": "",
                         "Somali": "Salaan"
+                    }
+                },
+                {
+                    "path": "/shadowing-technique-english-lessons/saying-goodbye",
+                    "backgroundImage": "linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%)",
+                    "title": "Saying Goodbye",
+                    "translations": {
+                        "Somali": "Soo dhoweyn ama macasalaameyn"
+                    }
+                },
+                {
+                    "path": "/shadowing-technique-english-lessons/making-apologies",
+                    "backgroundImage": "linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%)",
+                    "title": "Making apologies",
+                    "translations": {
+                        "Somali": "Raali gelin bixinta"
+                    }
+                },
+                {
+                    "path": "/shadowing-technique-english-lessons/introducing-yourself-and-others",
+                    "backgroundImage": "linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%)",
+                    "title": "Introducing yourself and others",
+                    "translations": {
+                        "Somali": "Is-barasho adiga iyo dadka kale"
+                    }
+                },
+                {
+                    "path": "/shadowing-technique-english-lessons/thank-you",
+                    "backgroundImage": "linear-gradient(0deg, #08AEEA 0%, #2AF598 100%)",
+                    "title": "Thank you",
+                    "translations": {
+                        "Somali": "Mahadsanid"
+                    }
+                },
+                {
+                    "path": "/shadowing-technique-english-lessons/talking-about-time",
+                    "backgroundImage": "linear-gradient(0deg, #08AEEA 0%, #2AF598 100%)",
+                    "title": "Talking about time",
+                    "translations": {
+                        "Somali": "Ka hadalka waqtiga"
                     }
                 }
             ]
