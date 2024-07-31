@@ -1,0 +1,40 @@
+{
+    "lesson": [
+        {
+            "text": "This dinner is delicious, Dad.",
+            "translations": {
+                "Somali": "Cashadani waa macaan, Aabbe."
+            }
+        },
+        {
+            "text": "Thanks, son. Your mom really outdid herself.",
+            "translations": {
+                "Somali": "Mahadsanid, wiilkayga. Hooyadaa runtii way dadaashay."
+            }
+        },
+        {
+            "text": "How was your day at work?",
+            "translations": {
+                "Somali": "Sidee ahayd maalintaada shaqada?"
+            }
+        },
+        {
+            "text": "It was busy, but productive. How about school?",
+            "translations": {
+                "Somali": "Way mashquul ahayd, laakiin midho dhalaysa. Iskuulka sidaa tahay?"
+            }
+        },
+        {
+            "text": "It was good. We started a new science project.",
+            "translations": {
+                "Somali": "Waa fiicnayd. Waxaan bilownay mashruuc saynis cusub."
+            }
+        },
+        {
+            "text": "That sounds interesting. What’s the project about?",
+            "translations": {
+                "Somali": "Taasi waxay u muuqataa mid xiiso leh. Mashruucu muxuu ku saabsan yahay?"
+            }
+        }
+    ]
+}
