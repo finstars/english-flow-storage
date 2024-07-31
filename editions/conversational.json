@@ -4,7 +4,7 @@
             "title": "Family",
             "lessons": [
                 {
-                    "path": "/shadowing-technique-english-lessons/greetings",
+                    "path": "/conversational/members-of-family",
                     "backgroundImage": "radial-gradient( circle 1292px at -13.6% 51.7%,  rgba(0,56,68,1) 0%, rgba(163,217,185,1) 51.5%, rgba(255,252,247,1) 88.6% )",
                     "title": "Members of family",
                     "translations": {
@@ -12,7 +12,7 @@
                     }
                 },
                 {
-                    "path": "/shadowing-technique-english-lessons/saying-goodbye",
+                    "path": "/conversational/what-do-your-parents-do",
                     "backgroundImage": "linear-gradient( 109.6deg,  rgba(215,109,119,1) 11.3%, rgba(255,175,123,1) 100.2% )",
                     "title": "What do your parents do?",
                     "translations": {
@@ -20,7 +20,7 @@
                     }
                 },
                 {
-                    "path": "/shadowing-technique-english-lessons/making-apologies",
+                    "path": "/conversational/having-dinner-together",
                     "backgroundImage": "linear-gradient( 142.4deg,  rgba(139,98,208,1) 5%, rgba(126,124,223,1) 28.2%, rgba(109,207,236,1) 62.5%, rgba(176,239,244,1) 89.1% )",
                     "title": "Having dinner together",
                     "translations": {
@@ -28,7 +28,7 @@
                     }
                 },
                 {
-                    "path": "/shadowing-technique-english-lessons/introducing-yourself-and-others",
+                    "path": "/conversational/sibling-memories",
                     "backgroundImage": "radial-gradient( circle 1106px at 91% 53.8%,  rgba(221,147,179,1) 9%, rgba(240,246,215,1) 68.1% )",
                     "title": "Sibling memories",
                     "translations": {
@@ -36,7 +36,7 @@
                     }
                 },
                 {
-                    "path": "/shadowing-technique-english-lessons/thank-you",
+                    "path": "/conversational/teasing-mom",
                     "backgroundImage": "linear-gradient( 111.4deg,  rgba(238,113,113,1) 1%, rgba(246,215,148,1) 58% )",
                     "title": "Teasing mom",
                     "translations": {
@@ -44,7 +44,7 @@
                     }
                 },
                 {
-                    "path": "/shadowing-technique-english-lessons/talking-about-time",
+                    "path": "/conversational/teasing-dad",
                     "backgroundImage": "linear-gradient( 68.6deg,  rgba(79,183,131,1) 14.4%, rgba(254,235,151,1) 92.7% )",
                     "title": "Teasing dad",
                     "translations": {
