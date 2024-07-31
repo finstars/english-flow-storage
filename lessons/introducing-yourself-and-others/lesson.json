@@ -1,0 +1,124 @@
+{
+    "lesson": [
+        {
+            "text": "Hello. My name is …",
+            "translations": {
+                "Somali": "Salaan. Magacaygu waa …"
+            }
+        },
+        {
+            "text": "Hi. I’m …",
+            "translations": {
+                "Somali": "Salaan. Anigu waxaan ahay …"
+            }
+        },
+        {
+            "text": "Nice to meet you. I’m …",
+            "translations": {
+                "Somali": "Farxad baan ku baranayaa. Anigu waxaan ahay …"
+            }
+        },
+        {
+            "text": "Pleased to meet you. I’m …",
+            "translations": {
+                "Somali": "Waan ku faraxsanahay inaan ku barto. Anigu waxaan ahay …"
+            }
+        },
+        {
+            "text": "It’s a pleasure to see you. I’m…",
+            "translations": {
+                "Somali": "Farxad bay ii tahay inaan ku arko. Anigu waxaan ahay …"
+            }
+        },
+        {
+            "text": "May I introduce myself? I’m…",
+            "translations": {
+                "Somali": "Ma isbaran karnaa? Anigu waxaan ahay …"
+            }
+        },
+        {
+            "text": "How do you do? My name is…",
+            "translations": {
+                "Somali": "Sidee tahay? Magacaygu waa…"
+            }
+        },
+        {
+            "text": "Let me introduce myself. I’m …",
+            "translations": {
+                "Somali": "Aan isku baro. Anigu waxaan ahay …"
+            }
+        },
+        {
+            "text": "I’d like to introduce myself. I’m …",
+            "translations": {
+                "Somali": "Waxaan jeclaan lahaa inaan isbaro. Anigu waxaan ahay …"
+            }
+        },
+        {
+            "text": "John, I’d like to introduce you to Mary.",
+            "translations": {
+                "Somali": "John, waxaan jeclaan lahaa inaan ku baro Mary."
+            }
+        },
+        {
+            "text": "John, please meet Mary.",
+            "translations": {
+                "Somali": "John, fadlan la kulan Mary."
+            }
+        },
+        {
+            "text": "John, I’d like you to meet Mary.",
+            "translations": {
+                "Somali": "John, waxaan jeclaan lahaa inaad la kulanto Mary."
+            }
+        },
+        {
+            "text": "John, have you met Mary?",
+            "translations": {
+                "Somali": "John, ma la kulantay Mary?"
+            }
+        },
+        {
+            "text": "John, let me introduce you to Mary.",
+            "translations": {
+                "Somali": "John, aan ku baro Mary."
+            }
+        },
+        {
+            "text": "John, this is Mary. Mary, this is John.",
+            "translations": {
+                "Somali": "John, kani waa Mary. Mary, kani waa John."
+            }
+        },
+        {
+            "text": "Nice to meet you.",
+            "translations": {
+                "Somali": "Farxad baan ku baranayaa."
+            }
+        },
+        {
+            "text": "I’m pleased to meet you.",
+            "translations": {
+                "Somali": "Waan ku faraxsanahay inaan ku barto."
+            }
+        },
+        {
+            "text": "It’s a pleasure to meet you.",
+            "translations": {
+                "Somali": "Farxad bay ii tahay inaan ku barto."
+            }
+        },
+        {
+            "text": "Glad to meet you.",
+            "translations": {
+                "Somali": "Waan ku faraxsanahay inaan ku barto."
+            }
+        },
+        {
+            "text": "How do you do?",
+            "translations": {
+                "Somali": "Sidee tahay?"
+            }
+        }
+    ]
+}

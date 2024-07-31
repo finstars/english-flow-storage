@@ -1,0 +1,154 @@
+{
+    "lesson": [
+        {
+            "text": "I’m sorry…",
+            "translations": {
+                "Somali": "Waan ka xumahay…"
+            }
+        },
+        {
+            "text": "I’m so sorry…",
+            "translations": {
+                "Somali": "Waan ka xumahay aad…"
+            }
+        },
+        {
+            "text": "I’m very sorry…",
+            "translations": {
+                "Somali": "Runtii waan ka xumahay…"
+            }
+        },
+        {
+            "text": "I’m terribly sorry…",
+            "translations": {
+                "Somali": "Aad ayaan uga xumahay…"
+            }
+        },
+        {
+            "text": "Sorry, I didn’t mean to do that.",
+            "translations": {
+                "Somali": "Waan ka xumahay, ma aanan ula jeedin inaan sidaas sameeyo."
+            }
+        },
+        {
+            "text": "Sorry about that.",
+            "translations": {
+                "Somali": "Waan ka xumahay taas."
+            }
+        },
+        {
+            "text": "Can you forgive me?",
+            "translations": {
+                "Somali": "Ma iga cafin kartaa?"
+            }
+        },
+        {
+            "text": "I apologize for…",
+            "translations": {
+                "Somali": "Waan ka raali gelinayaa…"
+            }
+        },
+        {
+            "text": "Please forgive me.",
+            "translations": {
+                "Somali": "Fadlan ii dul qaado."
+            }
+        },
+        {
+            "text": "I owe you an apology.",
+            "translations": {
+                "Somali": "Waxaan kaa leeyahay raali gelin."
+            }
+        },
+        {
+            "text": "You can blame me for this.",
+            "translations": {
+                "Somali": "Waxaad ii eedeyn kartaa arrintan."
+            }
+        },
+        {
+            "text": "How should I apologize to you?",
+            "translations": {
+                "Somali": "Sideen kuu raali gelin karaa?"
+            }
+        },
+        {
+            "text": "I beg your pardon.",
+            "translations": {
+                "Somali": "Raali ahow."
+            }
+        },
+        {
+            "text": "Sorry, it’s my fault.",
+            "translations": {
+                "Somali": "Waan ka xumahay, waa khaladkeyga."
+            }
+        },
+        {
+            "text": "Sorry for keeping you waiting.",
+            "translations": {
+                "Somali": "Waan ka xumahay inaan ku sugo."
+            }
+        },
+        {
+            "text": "Sorry, I’m late!",
+            "translations": {
+                "Somali": "Waan ka xumahay, waan soo daahay!"
+            }
+        },
+        {
+            "text": "That’s all right!",
+            "translations": {
+                "Somali": "Waa hagaag!"
+            }
+        },
+        {
+            "text": "Don’t worry about it.",
+            "translations": {
+                "Somali": "Ha ka welwelin."
+            }
+        },
+        {
+            "text": "Forget it!",
+            "translations": {
+                "Somali": "Iloow!"
+            }
+        },
+        {
+            "text": "No problem.",
+            "translations": {
+                "Somali": "Dhib ma leh."
+            }
+        },
+        {
+            "text": "Never mind. It doesn’t really matter.",
+            "translations": {
+                "Somali": "Ha ka welwelin. Runtii waxba ma ahan."
+            }
+        },
+        {
+            "text": "No big thing.",
+            "translations": {
+                "Somali": "Wax weyn ma ahan."
+            }
+        },
+        {
+            "text": "It’s not your fault.",
+            "translations": {
+                "Somali": "Maaha khaladkaaga."
+            }
+        },
+        {
+            "text": "Please don’t blame yourself.",
+            "translations": {
+                "Somali": "Fadlan ha isku eedeyn."
+            }
+        },
+        {
+            "text": "Think nothing of it.",
+            "translations": {
+                "Somali": "Ha ka fikirin."
+            }
+        }
+    ]
+}

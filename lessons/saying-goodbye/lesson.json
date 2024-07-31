@@ -1,0 +1,124 @@
+{
+    "lesson": [
+        {
+            "text": "Goodbye",
+            "translations": {
+                "Somali": "Nabadeey"
+            }
+        },
+        {
+            "text": "Bye",
+            "translations": {
+                "Somali": "Nabadeey"
+            }
+        },
+        {
+            "text": "Bye for now!",
+            "translations": {
+                "Somali": "Hadda nabadeey!"
+            }
+        },
+        {
+            "text": "See you!",
+            "translations": {
+                "Somali": "Waan ku arki doonaa!"
+            }
+        },
+        {
+            "text": "See you soon!",
+            "translations": {
+                "Somali": "Is arag dhawaan!"
+            }
+        },
+        {
+            "text": "See you later!",
+            "translations": {
+                "Somali": "Markale ayaan ku arki doonaa!"
+            }
+        },
+        {
+            "text": "Talk to you later!",
+            "translations": {
+                "Somali": "Markale ayaan kula hadli doonaa!"
+            }
+        },
+        {
+            "text": "Catch up with you later.",
+            "translations": {
+                "Somali": "Markale ayaan kulmi doonaa."
+            }
+        },
+        {
+            "text": "I hope to see you soon.",
+            "translations": {
+                "Somali": "Waxaan rajeynayaa inaan ku arko dhawaan."
+            }
+        },
+        {
+            "text": "See you next time.",
+            "translations": {
+                "Somali": "Markale ayaan ku arki doonaa."
+            }
+        },
+        {
+            "text": "I’m looking forward to seeing you soon.",
+            "translations": {
+                "Somali": "Waxaan rajeynayaa inaan ku arko dhawaan."
+            }
+        },
+        {
+            "text": "It was nice meeting you.",
+            "translations": {
+                "Somali": "Waxay ahayd mid wanaagsan inaan kula kulmo."
+            }
+        },
+        {
+            "text": "It’s been really nice knowing you.",
+            "translations": {
+                "Somali": "Waxay ahayd mid wanaagsan inaan ku barto."
+            }
+        },
+        {
+            "text": "It has been a pleasure, we’ll speak soon.",
+            "translations": {
+                "Somali": "Waxay ahayd farxad, waxaan hadli doonaa dhawaan."
+            }
+        },
+        {
+            "text": "It was really great to see you, catch you later.",
+            "translations": {
+                "Somali": "Waxay ahayd mid weyn inaan ku arko, markale ayaan kulmi doonaa."
+            }
+        },
+        {
+            "text": "All the best, bye.",
+            "translations": {
+                "Somali": "Dhammaan wanaagga, nabadeey."
+            }
+        },
+        {
+            "text": "Take care!",
+            "translations": {
+                "Somali": "Iska waran!"
+            }
+        },
+        {
+            "text": "Stay in touch.",
+            "translations": {
+                "Somali": "Waan kula soo xiriiri doonaa."
+            }
+        },
+        {
+            "text": "I’m really going to miss you.",
+            "translations": {
+                "Somali": "Runtii waan ku tabayaayaa."
+            }
+        },
+        {
+            "text": "I’ve got to go now.",
+            "translations": {
+                "Somali": "Hadda waa inaan tagaa."
+            }
+        }
+    ]
+}

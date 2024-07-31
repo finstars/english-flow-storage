@@ -1,0 +1,154 @@
+{
+    "lesson": [
+        {
+            "text": "What time is it?",
+            "translations": {
+                "Somali": "Saacadu waa imisa?"
+            }
+        },
+        {
+            "text": "What’s the time?",
+            "translations": {
+                "Somali": "Wakhtigu waa imisa?"
+            }
+        },
+        {
+            "text": "Could you tell me the time?",
+            "translations": {
+                "Somali": "Ma ii sheegi kartaa saacada?"
+            }
+        },
+        {
+            "text": "Do you know what time it is?",
+            "translations": {
+                "Somali": "Ma ogtahay saacadu waa imisa?"
+            }
+        },
+        {
+            "text": "How long have you been waiting?",
+            "translations": {
+                "Somali": "Intee in le'eg ayaad sugaysay?"
+            }
+        },
+        {
+            "text": "Do you have free time this afternoon?",
+            "translations": {
+                "Somali": "Ma haysaa waqti firaaqo ah galabkan?"
+            }
+        },
+        {
+            "text": "What time can we meet?",
+            "translations": {
+                "Somali": "Waqtigee baan kulmi karnaa?"
+            }
+        },
+        {
+            "text": "What should we do to kill time?",
+            "translations": {
+                "Somali": "Maxaan sameyn karnaa si aan wakhti u luminno?"
+            }
+        },
+        {
+            "text": "It’s ten o’clock.",
+            "translations": {
+                "Somali": "Waa toban saac."
+            }
+        },
+        {
+            "text": "It’s midnight.",
+            "translations": {
+                "Somali": "Waa saqda dhexe."
+            }
+        },
+        {
+            "text": "It’s 6 A.M now.",
+            "translations": {
+                "Somali": "Waa lixda subaxnimo hadda."
+            }
+        },
+        {
+            "text": "See you at 8 P.M.",
+            "translations": {
+                "Somali": "Waxaan ku arki doonaa sideeda habeenimo."
+            }
+        },
+        {
+            "text": "I can’t tell you exactly what time we will arrive.",
+            "translations": {
+                "Somali": "Si sax ah uma sheegi karo waqtiga aan soo gaari doono."
+            }
+        },
+        {
+            "text": "It’s too late now.",
+            "translations": {
+                "Somali": "Waa daahay hadda."
+            }
+        },
+        {
+            "text": "My watch is stopped.",
+            "translations": {
+                "Somali": "Saacadeydu way joogsan tahay."
+            }
+        },
+        {
+            "text": "My watch is slow.",
+            "translations": {
+                "Somali": "Saacadeydu way gaabis tahay."
+            }
+        },
+        {
+            "text": "Don’t waste your time doing nothing.",
+            "translations": {
+                "Somali": "Ha lumin waqtigaaga adiga oo waxba samayn."
+            }
+        },
+        {
+            "text": "I didn’t think it was so late.",
+            "translations": {
+                "Somali": "Ma aanan maleyneynin inuu waqtigu sidaas u daahay."
+            }
+        },
+        {
+            "text": "We have plenty of time.",
+            "translations": {
+                "Somali": "Waqti badan ayaan haynaa."
+            }
+        },
+        {
+            "text": "Give me a little more time.",
+            "translations": {
+                "Somali": "Ii sii waqti yar oo dheeri ah."
+            }
+        },
+        {
+            "text": "It’s time to leave.",
+            "translations": {
+                "Somali": "Waa waqtigii aan bixi lahayn."
+            }
+        },
+        {
+            "text": "It’s almost time to go home.",
+            "translations": {
+                "Somali": "Waa ku dhow yahay waqtigii aan guriga aadi lahayn."
+            }
+        },
+        {
+            "text": "Time went by so fast.",
+            "translations": {
+                "Somali": "Waqtigu si dhakhso ah buu u dhaafay."
+            }
+        },
+        {
+            "text": "The supermarket opens at 9 a.m.",
+            "translations": {
+                "Somali": "Suupamaketku wuxuu furmaa sagaalka subaxnimo."
+            }
+        },
+        {
+            "text": "The class starts at 8 in the morning.",
+            "translations": {
+                "Somali": "Fasalku wuxuu bilaabmaa siddeeda subaxnimo."
+            }
+        }
+    ]
+}
