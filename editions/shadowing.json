@@ -37,7 +37,7 @@
                 },
                 {
                     "path": "/shadowing-technique-english-lessons/thank-you",
-                    "backgroundImage": "linear-gradient(0deg, #08AEEA 0%, #2AF598 100%)",
+                    "backgroundImage": "radial-gradient( circle 918px at 13.1% 25.5%,  rgba(249,107,107,1) 0%, rgba(247,231,172,1) 48.9%, rgba(173,247,172,1) 90% )",
                     "title": "Thank you",
                     "translations": {
                         "Somali": "Mahadsanid"
