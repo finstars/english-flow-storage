@@ -1,0 +1,57 @@
+{
+    "edition": [
+        {
+            "title": "Talking about memories",
+            "lessons": [
+                {
+                    "path": "/shadowing-technique-english-lessons/greetings",
+                    "backgroundImage": "radial-gradient( circle farthest-corner at 3.2% 49.6%,  rgba(80,12,139,0.87) 0%, rgba(161,10,144,0.72) 83.6% )",
+                    "title": "Sam got a bayblade",
+                    "translations": {
+                        "Somali": "Sam wuxuu helay bayblade"
+                    }
+                },
+                {
+                    "path": "/shadowing-technique-english-lessons/saying-goodbye",
+                    "backgroundImage": "linear-gradient( 109.6deg,  rgba(255,194,48,1) 11.2%, rgba(255,124,0,1) 100.2% )",
+                    "title": "Dane stole a bike",
+                    "translations": {
+                        "Somali": "Dane wuxuu xaday baaskiil"
+                    }
+                },
+                {
+                    "path": "/shadowing-technique-english-lessons/making-apologies",
+                    "backgroundImage": "linear-gradient( 110.4deg,  rgba(247,112,15,1) 6.4%, rgba(248,50,88,1) 100.2% )",
+                    "title": "Forgot the passport",
+                    "translations": {
+                        "Somali": "Baasaboorka wuu hilmaamay"
+                    }
+                },
+                {
+                    "path": "/shadowing-technique-english-lessons/introducing-yourself-and-others",
+                    "backgroundImage": "linear-gradient( 115.7deg,  rgba(3,79,135,1) 6.2%, rgba(0,184,214,1) 112.9% )",
+                    "title": "Got a ticket",
+                    "translations": {
+                        "Somali": "Tigidh wuu helay"
+                    }
+                },
+                {
+                    "path": "/shadowing-technique-english-lessons/thank-you",
+                    "backgroundImage": "linear-gradient( 109.6deg,  rgba(44,83,131,1) 18.9%, rgba(95,175,201,1) 91.1% )",
+                    "title": "First day at school",
+                    "translations": {
+                        "Somali": "Maalintii ugu horreysay ee iskuulka"
+                    }
+                },
+                {
+                    "path": "/shadowing-technique-english-lessons/talking-about-time",
+                    "backgroundImage": "radial-gradient( circle 530px at 23.2% 57%,  rgba(204,6,6,1) 0%, rgba(149,8,8,1) 90% )",
+                    "title": "Buying a bus ticket",
+                    "translations": {
+                        "Somali": "Iibso tigidh baska"
+                    }
+                }
+            ]
+        }
+    ]
+}
