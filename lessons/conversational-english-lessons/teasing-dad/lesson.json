@@ -1,0 +1,127 @@
+{
+    "lesson": [
+        {
+            "title": "Listen",
+            "conversation": [
+                {
+                    "text": "Hey Dad, remember that time you tried to fix the sink and ended up flooding the kitchen?",
+                    "translations": {
+                        "Somali": "Hey Aabe, ma xasuusataa markii aad isku dayday in aad saxdo saxanka oo aad qolka jikada biyo ku qoysay?"
+                    }
+                },
+                {
+                    "text": "Oh, come on, that was ages ago. Besides, I did fix it eventually, didn't I?",
+                    "translations": {
+                        "Somali": "Oh, kaalay, taasi waa waqti hore. Waxaa intaa dheer, ugu dambayntii waan saxay, miyaan saxin?"
+                    }
+                },
+                {
+                    "text": "Yeah, after Mom called the plumber. You were like, 'I got this', and then water was spraying everywhere like a fountain.",
+                    "translations": {
+                        "Somali": "Haa, ka dib markii hooyo ay wacday farsamayaqaanada biyaha. Adiguna waxaad tiri, 'Waxaan hayaa', ka dibna biyaha meel walba ayay ku firdheen sida ceel biyood."
+                    }
+                },
+                {
+                    "text": "I just underestimated the water pressure, that's all. It was a learning experience.",
+                    "translations": {
+                        "Somali": "Kaliya waxaan hoos u qiyaasay cadaadiska biyaha, taasna waa intaas. Waxay ahayd waayo-aragnimo waxbarasho."
+                    }
+                },
+                {
+                    "text": "A learning experience for you, a swimming lesson for the rest of us.",
+                    "translations": {
+                        "Somali": "Waayo-aragnimo waxbarasho adiga, cashar dabaasha inta kale ee naga mid ah."
+                    }
+                },
+                {
+                    "text": "Very funny. At least I try to fix things around here. What about the time you tried to assemble that bookshelf?",
+                    "translations": {
+                        "Somali": "Aad baad u qosol badan tahay. Ugu yaraan waxaan isku dayaa inaan wax hagaajiyo halkan. Maxaa ka dhigay wakhtigii aad isku dayday inaad isku xirto shelf-ka buugaagta?"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Speak Yellow",
+            "conversation": [
+                {
+                    "text": "Hey Dad, remember that time you tried to fix the sink and ended up flooding the kitchen?",
+                    "translations": {
+                        "Somali": "Hey Aabe, ma xasuusataa markii aad isku dayday in aad saxdo saxanka oo aad qolka jikada biyo ku qoysay?"
+                    }
+                },
+                {
+                    "text": "Oh, come on, that was ages ago. Besides, I did fix it eventually, didn't I?",
+                    "translations": {
+                        "Somali": "Oh, kaalay, taasi waa waqti hore. Waxaa intaa dheer, ugu dambayntii waan saxay, miyaan saxin?"
+                    }
+                },
+                {
+                    "text": "Yeah, after Mom called the plumber. You were like, 'I got this', and then water was spraying everywhere like a fountain.",
+                    "translations": {
+                        "Somali": "Haa, ka dib markii hooyo ay wacday farsamayaqaanada biyaha. Adiguna waxaad tiri, 'Waxaan hayaa', ka dibna biyaha meel walba ayay ku firdheen sida ceel biyood."
+                    }
+                },
+                {
+                    "text": "I just underestimated the water pressure, that's all. It was a learning experience.",
+                    "translations": {
+                        "Somali": "Kaliya waxaan hoos u qiyaasay cadaadiska biyaha, taasna waa intaas. Waxay ahayd waayo-aragnimo waxbarasho."
+                    }
+                },
+                {
+                    "text": "A learning experience for you, a swimming lesson for the rest of us.",
+                    "translations": {
+                        "Somali": "Waayo-aragnimo waxbarasho adiga, cashar dabaasha inta kale ee naga mid ah."
+                    }
+                },
+                {
+                    "text": "Very funny. At least I try to fix things around here. What about the time you tried to assemble that bookshelf?",
+                    "translations": {
+                        "Somali": "Aad baad u qosol badan tahay. Ugu yaraan waxaan isku dayaa inaan wax hagaajiyo halkan. Maxaa ka dhigay wakhtigii aad isku dayday inaad isku xirto shelf-ka buugaagta?"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Speak Green",
+            "conversation": [
+                {
+                    "text": "Hey Dad, remember that time you tried to fix the sink and ended up flooding the kitchen?",
+                    "translations": {
+                        "Somali": "Hey Aabe, ma xasuusataa markii aad isku dayday in aad saxdo saxanka oo aad qolka jikada biyo ku qoysay?"
+                    }
+                },
+                {
+                    "text": "Oh, come on, that was ages ago. Besides, I did fix it eventually, didn't I?",
+                    "translations": {
+                        "Somali": "Oh, kaalay, taasi waa waqti hore. Waxaa intaa dheer, ugu dambayntii waan saxay, miyaan saxin?"
+                    }
+                },
+                {
+                    "text": "Yeah, after Mom called the plumber. You were like, 'I got this', and then water was spraying everywhere like a fountain.",
+                    "translations": {
+                        "Somali": "Haa, ka dib markii hooyo ay wacday farsamayaqaanada biyaha. Adiguna waxaad tiri, 'Waxaan hayaa', ka dibna biyaha meel walba ayay ku firdheen sida ceel biyood."
+                    }
+                },
+                {
+                    "text": "I just underestimated the water pressure, that's all. It was a learning experience.",
+                    "translations": {
+                        "Somali": "Kaliya waxaan hoos u qiyaasay cadaadiska biyaha, taasna waa intaas. Waxay ahayd waayo-aragnimo waxbarasho."
+                    }
+                },
+                {
+                    "text": "A learning experience for you, a swimming lesson for the rest of us.",
+                    "translations": {
+                        "Somali": "Waayo-aragnimo waxbarasho adiga, cashar dabaasha inta kale ee naga mid ah."
+                    }
+                },
+                {
+                    "text": "Very funny. At least I try to fix things around here. What about the time you tried to assemble that bookshelf?",
+                    "translations": {
+                        "Somali": "Aad baad u qosol badan tahay. Ugu yaraan waxaan isku dayaa inaan wax hagaajiyo halkan. Maxaa ka dhigay wakhtigii aad isku dayday inaad isku xirto shelf-ka buugaagta?"
+                    }
+                }
+            ]
+        }
+    ]
+}

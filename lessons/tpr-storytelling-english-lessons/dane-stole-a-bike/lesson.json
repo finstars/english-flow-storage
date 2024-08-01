@@ -1,0 +1,46 @@
+{
+    "lesson": [
+        {
+            "title": "Answer out loud",
+            "text": "Dane glanced around the quiet street, his heart racing with a mixture of fear and exhilaration. He spotted a sleek, red bicycle leaning against a lamppost, its owner nowhere in sight. What did he spot?",
+            "translations": {
+                "Somali": "Dane wuxuu indhaha ka qaaday waddada aamusnaanta leh, wadnahiisa oo isku dhex wata cabsi iyo farxad. Wuxuu arkay baaskiil cas oo qurux badan oo ku tiirsan tiirka laambadda, milkiilihiisuna meesha kuma sugneyn. Maxay ayuu arkay?"
+            }
+        },
+        {
+            "title": "Answer out loud",
+            "text": "A red bicycle right. Without thinking twice, he approached the bike, glancing over his shoulder to ensure no one was watching. Did he leave the bike?",
+            "translations": {
+                "Somali": "Baaskiil cas, sax. Isaga oo aan laba jeer ka fikirin, wuxuu u dhaqaaqay baaskiilka, isaga oo fiirinaya garabkiisa si uu u hubiyo inaan qofna daawanayn. Ma uu ka tegey baaskiilka?"
+            }
+        },
+        {
+            "title": "Answer out loud",
+            "text": "No, no, he didn't leave the bike. He approached the bike. Dane's fingers trembled as he gripped the handlebars, lifting the bike off the ground. Why did he lift it off the ground, though?",
+            "translations": {
+                "Somali": "Maya, maya, ma uu tegin baaskiilka. Wuxuu u dhaqaaqay baaskiilka. Faraha Dane way gariirayeen marka uu qabtay gacanta baaskiilka, isaga oo ka qaadaya dhulka. Laakiin muxuu uga qaaday dhulka?"
+            }
+        },
+        {
+            "title": "Answer out loud",
+            "text": "Right, because it was just lying there. His destination was a small park on the outskirts of town, a place he often went to escape the chaos of his life. Where was he now heading to?",
+            "translations": {
+                "Somali": "Sax, sababtoo ah meeshaas ayuuba yaallay. Meesha uu u socday waxay ahayd jardiino yar oo ku taalla daafaha magaalada, meel uu badanaa aadi jiray si uu uga baxsado fowdada noloshiisa. Halkee buu haatan u socdaa?"
+            }
+        },
+        {
+            "title": "Answer out loud",
+            "text": "Yes, to a small park. His place he likes to go to escape the chaos of his life. Why did Dane steal the bike?",
+            "translations": {
+                "Somali": "Haa, jardiino yar. Waa meel uu jecel yahay inuu aado si uu uga baxsado fowdada noloshiisa. Maxay Dane u xaday baaskiilka?"
+            }
+        },
+        {
+            "title": "Answer out loud",
+            "text": "He wasn't entirely sure. The act of theft had filled him with adrenaline and a temporary sense of liberation.",
+            "translations": {
+                "Somali": "Wuxuu uusan si buuxda u hubin sababta. Falka xatooyadu wuxuu ku shubay adrenal iyo dareen ku meel gaar ah oo xorriyad ah."
+            }
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+{
+    "lesson": [
+        {
+            "title": "Listen",
+            "conversation": [
+                {
+                    "text": "So, Jake, what do you do?",
+                    "translations": {
+                        "Somali": "Jake, maxaad qabataa?"
+                    }
+                },
+                {
+                    "text": "I'm a graphic designer. I work for a small marketing firm in town.",
+                    "translations": {
+                        "Somali": "Waxaan ahay naqshadeeye garaafik. Waxaan ka shaqeeyaa shirkad yar oo suuqgeyn ah oo magaalada ku taal."
+                    }
+                },
+                {
+                    "text": "That sounds creative and fun. Did your parents influence your career choice?",
+                    "translations": {
+                        "Somali": "Taas waxay umuuqataa mid hal abuur leh oo xiiso leh. Waalidiintaadu miyaay saameeyeen doorashadaada xirfadeed?"
+                    }
+                },
+                {
+                    "text": "Not directly. My mom is a doctor and my dad is an engineer. They always encouraged me to follow my own path, though.",
+                    "translations": {
+                        "Somali": "Maya si toos ah uma aysan sameyn. Hooyaday waa dhakhtar, aabahayna waa injineer. Had iyo jeer way igu dhiirigeliyeen inaan jidkayga raaco."
+                    }
+                },
+                {
+                    "text": "Wow, a doctor and an engineer? That's impressive. Do you ever feel pressured to go into a similar field?",
+                    "translations": {
+                        "Somali": "Subxaanallah, dhakhtar iyo injineer? Taasi waa wax cajiib ah. Ma dareentaa mararka qaar cadaadis kugu saabsan inaad gasho meel la mid ah?"
+                    }
+                },
+                {
+                    "text": "Sometimes, but they were always supportive of my interests. They just wanted me to be happy and passionate about whatever I chose to do.",
+                    "translations": {
+                        "Somali": "Mararka qaar, laakiin had iyo jeer way iga taageeri jireen danaha aan leeyahay. Waxay kaliya doonayeen inaan noqdo mid faraxsan oo xamaasad leh wax walba oo aan doorto inaan sameeyo."
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Speak Yellow",
+            "conversation": [
+                {
+                    "text": "So, Jake, what do you do?",
+                    "translations": {
+                        "Somali": "Jake, maxaad qabataa?"
+                    }
+                },
+                {
+                    "text": "I'm a graphic designer. I work for a small marketing firm in town.",
+                    "translations": {
+                        "Somali": "Waxaan ahay naqshadeeye garaafik. Waxaan ka shaqeeyaa shirkad yar oo suuqgeyn ah oo magaalada ku taal."
+                    }
+                },
+                {
+                    "text": "That sounds creative and fun. Did your parents influence your career choice?",
+                    "translations": {
+                        "Somali": "Taas waxay umuuqataa mid hal abuur leh oo xiiso leh. Waalidiintaadu miyaay saameeyeen doorashadaada xirfadeed?"
+                    }
+                },
+                {
+                    "text": "Not directly. My mom is a doctor and my dad is an engineer. They always encouraged me to follow my own path, though.",
+                    "translations": {
+                        "Somali": "Maya si toos ah uma aysan sameyn. Hooyaday waa dhakhtar, aabahayna waa injineer. Had iyo jeer way igu dhiirigeliyeen inaan jidkayga raaco."
+                    }
+                },
+                {
+                    "text": "Wow, a doctor and an engineer? That's impressive. Do you ever feel pressured to go into a similar field?",
+                    "translations": {
+                        "Somali": "Subxaanallah, dhakhtar iyo injineer? Taasi waa wax cajiib ah. Ma dareentaa mararka qaar cadaadis kugu saabsan inaad gasho meel la mid ah?"
+                    }
+                },
+                {
+                    "text": "Sometimes, but they were always supportive of my interests. They just wanted me to be happy and passionate about whatever I chose to do.",
+                    "translations": {
+                        "Somali": "Mararka qaar, laakiin had iyo jeer way iga taageeri jireen danaha aan leeyahay. Waxay kaliya doonayeen inaan noqdo mid faraxsan oo xamaasad leh wax walba oo aan doorto inaan sameeyo."
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Speak Green",
+            "conversation": [
+                {
+                    "text": "So, Jake, what do you do?",
+                    "translations": {
+                        "Somali": "Jake, maxaad qabataa?"
+                    }
+                },
+                {
+                    "text": "I'm a graphic designer. I work for a small marketing firm in town.",
+                    "translations": {
+                        "Somali": "Waxaan ahay naqshadeeye garaafik. Waxaan ka shaqeeyaa shirkad yar oo suuqgeyn ah oo magaalada ku taal."
+                    }
+                },
+                {
+                    "text": "That sounds creative and fun. Did your parents influence your career choice?",
+                    "translations": {
+                        "Somali": "Taas waxay umuuqataa mid hal abuur leh oo xiiso leh. Waalidiintaadu miyaay saameeyeen doorashadaada xirfadeed?"
+                    }
+                },
+                {
+                    "text": "Not directly. My mom is a doctor and my dad is an engineer. They always encouraged me to follow my own path, though.",
+                    "translations": {
+                        "Somali": "Maya si toos ah uma aysan sameyn. Hooyaday waa dhakhtar, aabahayna waa injineer. Had iyo jeer way igu dhiirigeliyeen inaan jidkayga raaco."
+                    }
+                },
+                {
+                    "text": "Wow, a doctor and an engineer? That's impressive. Do you ever feel pressured to go into a similar field?",
+                    "translations": {
+                        "Somali": "Subxaanallah, dhakhtar iyo injineer? Taasi waa wax cajiib ah. Ma dareentaa mararka qaar cadaadis kugu saabsan inaad gasho meel la mid ah?"
+                    }
+                },
+                {
+                    "text": "Sometimes, but they were always supportive of my interests. They just wanted me to be happy and passionate about whatever I chose to do.",
+                    "translations": {
+                        "Somali": "Mararka qaar, laakiin had iyo jeer way iga taageeri jireen danaha aan leeyahay. Waxay kaliya doonayeen inaan noqdo mid faraxsan oo xamaasad leh wax walba oo aan doorto inaan sameeyo."
+                    }
+                }
+            ]
+        }
+    ]
+}

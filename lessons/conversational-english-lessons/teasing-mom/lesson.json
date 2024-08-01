@@ -1,0 +1,127 @@
+{
+    "lesson": [
+        {
+            "title": "Listen",
+            "conversation": [
+                {
+                    "text": "Mom, can I ask you something a bit personal?",
+                    "translations": {
+                        "Somali": "Hooyo, ma ku weydiin karaa waxooga arrin gaar ah?"
+                    }
+                },
+                {
+                    "text": "Of course, sweetheart. What's on your mind?",
+                    "translations": {
+                        "Somali": "Dabcan, macaanto. Maxaa kugu jira maskaxda?"
+                    }
+                },
+                {
+                    "text": "I've been thinking a lot about love lately, and I realized I don't know much about your love stories. Like, what were your experiences with love as you were growing up?",
+                    "translations": {
+                        "Somali": "Waxaan maalmahan aad uga fikirayay jacaylka, waxaana ogaaday inaan wax badan ka aqoon sheekooyinkaaga jacaylka. Sida, maxay ahaayeen waaya-aragnimadaada jacaylka markii aad koraysey?"
+                    }
+                },
+                {
+                    "text": "Oh, my yearly love stories, huh? That sounds interesting. Where should I start?",
+                    "translations": {
+                        "Somali": "Sheekooyinkayga jacayl ee sanadlaha ah, huh? Taasi waxay u egtahay mid xiiso leh. Xaggee ka bilaabaa?"
+                    }
+                },
+                {
+                    "text": "Maybe from when you were a teenager? I bet there are some fun stories there.",
+                    "translations": {
+                        "Somali": "Waxaa laga yaabaa markaa adoo dhallinyaro ah? Waxaan hubaa inay jiraan sheekooyin xiiso leh oo halkaas ku jira."
+                    }
+                },
+                {
+                    "text": "Alright, let's see. When I was 15, I had my first crush on a boy named Tom. He was in my history class. I used to write his name all over my notebooks. We never actually talked much, but my heart would race every time I saw him.",
+                    "translations": {
+                        "Somali": "Haye, aan aragno. Markii aan 15 jir ahaa, waxaan jeclaa wiil la dhaho Tom. Waxa uu fasalkayga taariikhda joogay. Magiciisa ayaan meel walba ku qori jiray buugaagahayga. Weligay si dhab ah ugama aanan hadlin, laakiin wadnahaygu wuu garaacmi jiray markasta oo aan arko."
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Speak Yellow",
+            "conversation": [
+                {
+                    "text": "Mom, can I ask you something a bit personal?",
+                    "translations": {
+                        "Somali": "Hooyo, ma ku weydiin karaa waxooga arrin gaar ah?"
+                    }
+                },
+                {
+                    "text": "Of course, sweetheart. What's on your mind?",
+                    "translations": {
+                        "Somali": "Dabcan, macaanto. Maxaa kugu jira maskaxda?"
+                    }
+                },
+                {
+                    "text": "I've been thinking a lot about love lately, and I realized I don't know much about your love stories. Like, what were your experiences with love as you were growing up?",
+                    "translations": {
+                        "Somali": "Waxaan maalmahan aad uga fikirayay jacaylka, waxaana ogaaday inaan wax badan ka aqoon sheekooyinkaaga jacaylka. Sida, maxay ahaayeen waaya-aragnimadaada jacaylka markii aad koraysey?"
+                    }
+                },
+                {
+                    "text": "Oh, my yearly love stories, huh? That sounds interesting. Where should I start?",
+                    "translations": {
+                        "Somali": "Sheekooyinkayga jacayl ee sanadlaha ah, huh? Taasi waxay u egtahay mid xiiso leh. Xaggee ka bilaabaa?"
+                    }
+                },
+                {
+                    "text": "Maybe from when you were a teenager? I bet there are some fun stories there.",
+                    "translations": {
+                        "Somali": "Waxaa laga yaabaa markaa adoo dhallinyaro ah? Waxaan hubaa inay jiraan sheekooyin xiiso leh oo halkaas ku jira."
+                    }
+                },
+                {
+                    "text": "Alright, let's see. When I was 15, I had my first crush on a boy named Tom. He was in my history class. I used to write his name all over my notebooks. We never actually talked much, but my heart would race every time I saw him.",
+                    "translations": {
+                        "Somali": "Haye, aan aragno. Markii aan 15 jir ahaa, waxaan jeclaa wiil la dhaho Tom. Waxa uu fasalkayga taariikhda joogay. Magiciisa ayaan meel walba ku qori jiray buugaagahayga. Weligay si dhab ah ugama aanan hadlin, laakiin wadnahaygu wuu garaacmi jiray markasta oo aan arko."
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Speak Green",
+            "conversation": [
+                {
+                    "text": "Mom, can I ask you something a bit personal?",
+                    "translations": {
+                        "Somali": "Hooyo, ma ku weydiin karaa waxooga arrin gaar ah?"
+                    }
+                },
+                {
+                    "text": "Of course, sweetheart. What's on your mind?",
+                    "translations": {
+                        "Somali": "Dabcan, macaanto. Maxaa kugu jira maskaxda?"
+                    }
+                },
+                {
+                    "text": "I've been thinking a lot about love lately, and I realized I don't know much about your love stories. Like, what were your experiences with love as you were growing up?",
+                    "translations": {
+                        "Somali": "Waxaan maalmahan aad uga fikirayay jacaylka, waxaana ogaaday inaan wax badan ka aqoon sheekooyinkaaga jacaylka. Sida, maxay ahaayeen waaya-aragnimadaada jacaylka markii aad koraysey?"
+                    }
+                },
+                {
+                    "text": "Oh, my yearly love stories, huh? That sounds interesting. Where should I start?",
+                    "translations": {
+                        "Somali": "Sheekooyinkayga jacayl ee sanadlaha ah, huh? Taasi waxay u egtahay mid xiiso leh. Xaggee ka bilaabaa?"
+                    }
+                },
+                {
+                    "text": "Maybe from when you were a teenager? I bet there are some fun stories there.",
+                    "translations": {
+                        "Somali": "Waxaa laga yaabaa markaa adoo dhallinyaro ah? Waxaan hubaa inay jiraan sheekooyin xiiso leh oo halkaas ku jira."
+                    }
+                },
+                {
+                    "text": "Alright, let's see. When I was 15, I had my first crush on a boy named Tom. He was in my history class. I used to write his name all over my notebooks. We never actually talked much, but my heart would race every time I saw him.",
+                    "translations": {
+                        "Somali": "Haye, aan aragno. Markii aan 15 jir ahaa, waxaan jeclaa wiil la dhaho Tom. Waxa uu fasalkayga taariikhda joogay. Magiciisa ayaan meel walba ku qori jiray buugaagahayga. Weligay si dhab ah ugama aanan hadlin, laakiin wadnahaygu wuu garaacmi jiray markasta oo aan arko."
+                    }
+                }
+            ]
+        }
+    ]
+}

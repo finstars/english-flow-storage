@@ -1,0 +1,127 @@
+{
+    "lesson": [
+        {
+            "title": "Listen",
+            "conversation": [
+                {
+                    "text": "Hey, do you remember those summers we used to spend at Grandma's house?",
+                    "translations": {
+                        "Somali": "Haye, ma xasuusataa xagaagii aan ku qaadan jirnay guriga ayeeyo?"
+                    }
+                },
+                {
+                    "text": "Oh, absolutely! Those were the best times. I loved how we would play in the garden all day.",
+                    "translations": {
+                        "Somali": "Oo, haa! Kuwas waxay ahaayeen waqtiyadii ugu fiicnaa. Aad baan ugu jeclaa sida aan maalintii oo dhan ugu ciyaari jirnay beerta."
+                    }
+                },
+                {
+                    "text": "And Grandma would always make us those delicious cookies. I can still taste them!",
+                    "translations": {
+                        "Somali": "Ayeeyo had iyo jeer waxay noo samayn jirtay buskudkaas macaan. Weli waan ku dhadhamin karaa!"
+                    }
+                },
+                {
+                    "text": "Yeah, and we would sit on the porch in the evenings, listening to her stories about when she was young.",
+                    "translations": {
+                        "Somali": "Haa, waxaanan ku fariisan jirnay balbalada fiidkii, annagoo dhageysanayna sheekooyinkeeda marka ay yaraantii."
+                    }
+                },
+                {
+                    "text": "Those stories were amazing. She had such an adventurous life. Remember the one about her trip to Europe?",
+                    "translations": {
+                        "Somali": "Sheekooyinkaas waxay ahaayeen kuwo cajiib ah. Nolosheedu waxay ahayd mid xiiso leh. Ma xasuusataa tii ku saabsanayd safarkeeda Yurub?"
+                    }
+                },
+                {
+                    "text": "How could I forget? I always dreamed of going on adventures like hers. And Mom would join in with her own stories about their family vacations.",
+                    "translations": {
+                        "Somali": "Sideen u illaawi karaa? Mar walba waxaan ku riyoon jiray inaan yeesho safarro la mid ah kuwii iyada. Hooyo iyaduna waxay nagu soo biiri jirtay sheekooyinkeeda ku saabsan fasaxyada qoyska."
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Speak Yellow",
+            "conversation": [
+                {
+                    "text": "Hey, do you remember those summers we used to spend at Grandma's house?",
+                    "translations": {
+                        "Somali": "Haye, ma xasuusataa xagaagii aan ku qaadan jirnay guriga ayeeyo?"
+                    }
+                },
+                {
+                    "text": "Oh, absolutely! Those were the best times. I loved how we would play in the garden all day.",
+                    "translations": {
+                        "Somali": "Oo, haa! Kuwas waxay ahaayeen waqtiyadii ugu fiicnaa. Aad baan ugu jeclaa sida aan maalintii oo dhan ugu ciyaari jirnay beerta."
+                    }
+                },
+                {
+                    "text": "And Grandma would always make us those delicious cookies. I can still taste them!",
+                    "translations": {
+                        "Somali": "Ayeeyo had iyo jeer waxay noo samayn jirtay buskudkaas macaan. Weli waan ku dhadhamin karaa!"
+                    }
+                },
+                {
+                    "text": "Yeah, and we would sit on the porch in the evenings, listening to her stories about when she was young.",
+                    "translations": {
+                        "Somali": "Haa, waxaanan ku fariisan jirnay balbalada fiidkii, annagoo dhageysanayna sheekooyinkeeda marka ay yaraantii."
+                    }
+                },
+                {
+                    "text": "Those stories were amazing. She had such an adventurous life. Remember the one about her trip to Europe?",
+                    "translations": {
+                        "Somali": "Sheekooyinkaas waxay ahaayeen kuwo cajiib ah. Nolosheedu waxay ahayd mid xiiso leh. Ma xasuusataa tii ku saabsanayd safarkeeda Yurub?"
+                    }
+                },
+                {
+                    "text": "How could I forget? I always dreamed of going on adventures like hers. And Mom would join in with her own stories about their family vacations.",
+                    "translations": {
+                        "Somali": "Sideen u illaawi karaa? Mar walba waxaan ku riyoon jiray inaan yeesho safarro la mid ah kuwii iyada. Hooyo iyaduna waxay nagu soo biiri jirtay sheekooyinkeeda ku saabsan fasaxyada qoyska."
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Speak Green",
+            "conversation": [
+                {
+                    "text": "Hey, do you remember those summers we used to spend at Grandma's house?",
+                    "translations": {
+                        "Somali": "Haye, ma xasuusataa xagaagii aan ku qaadan jirnay guriga ayeeyo?"
+                    }
+                },
+                {
+                    "text": "Oh, absolutely! Those were the best times. I loved how we would play in the garden all day.",
+                    "translations": {
+                        "Somali": "Oo, haa! Kuwas waxay ahaayeen waqtiyadii ugu fiicnaa. Aad baan ugu jeclaa sida aan maalintii oo dhan ugu ciyaari jirnay beerta."
+                    }
+                },
+                {
+                    "text": "And Grandma would always make us those delicious cookies. I can still taste them!",
+                    "translations": {
+                        "Somali": "Ayeeyo had iyo jeer waxay noo samayn jirtay buskudkaas macaan. Weli waan ku dhadhamin karaa!"
+                    }
+                },
+                {
+                    "text": "Yeah, and we would sit on the porch in the evenings, listening to her stories about when she was young.",
+                    "translations": {
+                        "Somali": "Haa, waxaanan ku fariisan jirnay balbalada fiidkii, annagoo dhageysanayna sheekooyinkeeda marka ay yaraantii."
+                    }
+                },
+                {
+                    "text": "Those stories were amazing. She had such an adventurous life. Remember the one about her trip to Europe?",
+                    "translations": {
+                        "Somali": "Sheekooyinkaas waxay ahaayeen kuwo cajiib ah. Nolosheedu waxay ahayd mid xiiso leh. Ma xasuusataa tii ku saabsanayd safarkeeda Yurub?"
+                    }
+                },
+                {
+                    "text": "How could I forget? I always dreamed of going on adventures like hers. And Mom would join in with her own stories about their family vacations.",
+                    "translations": {
+                        "Somali": "Sideen u illaawi karaa? Mar walba waxaan ku riyoon jiray inaan yeesho safarro la mid ah kuwii iyada. Hooyo iyaduna waxay nagu soo biiri jirtay sheekooyinkeeda ku saabsan fasaxyada qoyska."
+                    }
+                }
+            ]
+        }
+    ]
+}
