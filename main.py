@@ -6,16 +6,18 @@ import requests
 import shutil
 from pydub import AudioSegment
 
-key = ""
+key = "sk_78a0ae205fb6120dd8c99285db15b7ff62112389c1de53f6"
 
 voices = {
     "American": {
-        "Male": "TX3LPaxmHKxFdv7VOQHJ", # Alternative: Bill - Health Nutrition Videos
-        "Female": "cgSgspJ2msm6clMCkdW9" # Alternative: Brittney Hart - Social Media Voice - Fun, Youthful & Informative
+        "Male":
+        "TX3LPaxmHKxFdv7VOQHJ",  # Alternative: Bill - Health Nutrition Videos
+        "Female":
+        "cgSgspJ2msm6clMCkdW9"  # Alternative: Brittney Hart - Social Media Voice - Fun, Youthful & Informative
     },
     "British": {
-        "Male": "CYw3kZ02Hs0563khs1Fj", # Alternative: Johnny Kid  - Serious
-        "Female": "ThT5KcBeYPX3keUQqHPh" # Alternative: Ana
+        "Male": "CYw3kZ02Hs0563khs1Fj",  # Alternative: Johnny Kid  - Serious
+        "Female": "ThT5KcBeYPX3keUQqHPh"  # Alternative: Ana
     },
     # "Canadian": {
     #     "Male": "", # Haseeb - Canadian Narration
@@ -27,6 +29,7 @@ voices = {
     # },
     # "Irish": "bVMeCyTHy58xNoL34h3p"
 }
+
 
 def generate_audio(voice, text, path, file_number):
     text = text.strip()
@@ -62,6 +65,7 @@ def generate_audio(voice, text, path, file_number):
               response.text)
         sys.exit(1)
 
+
 def get_mp3_files(directory):
     # Get a list of all files in the directory ending with .mp3
     files = [
@@ -73,7 +77,11 @@ def get_mp3_files(directory):
 
     return files
 
-def merge_mp3_files(file_list, output_file, silence_duration_ms=500):
+
+def merge_mp3_files(file_list,
+                    output_file,
+                    silence_duration_ms=500,
+                    mute_odd_even=None):
     # Create an empty AudioSegment
     combined = AudioSegment.empty()
 
@@ -81,9 +89,15 @@ def merge_mp3_files(file_list, output_file, silence_duration_ms=500):
     silence = AudioSegment.silent(duration=silence_duration_ms)
 
     # Iterate through the list of files
-    for file in file_list:
+    for index, file in enumerate(file_list):
         # Load the audio file
         audio = AudioSegment.from_mp3(file)
+
+        # Mute the audio if it matches the specified condition
+        if (mute_odd_even == 'odd'
+                and index % 2 != 0) or (mute_odd_even == 'even'
+                                        and index % 2 == 0):
+            audio = audio - 100
 
         # Append the audio file to the combined audio with silence in between
         combined += audio + silence
@@ -91,68 +105,131 @@ def merge_mp3_files(file_list, output_file, silence_duration_ms=500):
     # Export the combined audio
     combined.export(output_file, format="mp3")
 
+
 def scan_directory(directory):
-    for root, dirs, files in os.walk(directory):
-        level = root.replace(directory, '').count(os.sep)
-        indent = ' ' * 4 * (level)
-        print(f"{indent}{os.path.basename(root)}/")
-        sub_indent = ' ' * 4 * (level + 1)
-        for f in files:
-            print(f"{sub_indent}{f}")
-            if f == 'lesson.json':
-                lesson_path = os.path.join(root, f)
-                print(f"{sub_indent}Opening {lesson_path}")
-                with open(lesson_path, 'r') as lesson_file:
-                    try:
-                        lesson_data = json.load(lesson_file)
-                        if 'lesson' in lesson_data and isinstance(lesson_data['lesson'], list):
-                            for index, lesson_item in enumerate(lesson_data['lesson']):
-                                print(f"{sub_indent} Lesson {index + 1}:")
-                                # print(json.dumps(lesson_item, indent=4))
+    lesson_path = os.path.join(directory, 'lesson.json')
 
-                                 # Create a folder for each lesson
-                                conv_folder_name = str(index + 1)
-                                conv_folder_path = os.path.join(root, conv_folder_name)
+    with open(lesson_path, 'r') as lesson_file:
+        try:
+            lesson_data = json.load(lesson_file)
+            if 'lesson' in lesson_data and isinstance(lesson_data['lesson'],
+                                                      list):
+                for index, lesson_item in enumerate(lesson_data['lesson']):
 
-                                lesson_path = os.path.join(conv_folder_path, f"{index + 1}.mp3")
-                                
-                                american_male_path = os.path.join(conv_folder_path, "American", "Male")
-                                american_female_path = os.path.join(conv_folder_path, "American", "Female")
-                                
-                                brit_male_path = os.path.join(conv_folder_path, "British", "Male")
-                                brit_female_path = os.path.join(conv_folder_path, "British", "Female")
-                                
-                                if not os.path.exists(conv_folder_path):
-                                    # os.makedirs(conv_folder_path)
-                                    os.makedirs(brit_male_path)
-                                    os.makedirs(brit_female_path)
-                                    print(f"{sub_indent}    Created folder: {conv_folder_path}")
-                                
-                                if 'conversation' in lesson_item and isinstance(lesson_item['conversation'], list):
-                                    for conv_index, conversation in enumerate(lesson_item['conversation']):
-                                        print(json.dumps(conversation['text'], indent=4))
-                                        print(lesson_path)
+                    # print(json.dumps(lesson_item, indent=4))
 
-                                        voice1 = voices['American']['Male']
-                                        voice2 = voices['American']['Female']
-                                        voice3 = voices['British']['Male']
-                                        voice4 = voices['British']['Female']
+                    # Create a folder for each lesson
+                    american_male_path = os.path.join(directory, "American",
+                                                      "Male")
+                    american_female_path = os.path.join(
+                        directory, "American", "Female")
 
-                                        generate_audio(voice1, conversation['text'], american_male_path, conv_index + 1)
-                                        generate_audio(voice2, conversation['text'], american_female_path, conv_index + 1)
-                                        generate_audio(voice3, conversation['text'], brit_male_path, conv_index + 1)
-                                        generate_audio(voice4, conversation['text'], brit_female_path, conv_index + 1)
-                                else:
-                                    print(f"{sub_indent}    No valid 'conversation' key found or it is not an array.")
+                    brit_male_path = os.path.join(directory, "British", "Male")
+                    brit_female_path = os.path.join(directory, "British",
+                                                    "Female")
 
-                                merge_mp3_files(get_mp3_files(brit_male_path), lesson_path)
+                    os.makedirs(brit_male_path, exist_ok=True)
+                    os.makedirs(brit_female_path, exist_ok=True)
 
-                                break
-                        else:
-                            print(f"{sub_indent} No valid 'lesson' key found or it is not an array.")
-                    except json.JSONDecodeError as e:
-                        print(f"{sub_indent} Error decoding JSON: {e}")
+                    if 'conversation' in lesson_item and isinstance(
+                            lesson_item['conversation'], list):
+                        for conv_index, conversation in enumerate(
+                                lesson_item['conversation']):
+                            print(json.dumps(conversation['text'], indent=4))
+                            print(lesson_path)
+
+                            voice1 = voices['American']['Male']
+                            voice2 = voices['American']['Female']
+                            voice3 = voices['British']['Male']
+                            voice4 = voices['British']['Female']
+
+                            # generate_audio(voice1,
+                            #                conversation['text'],
+                            #                american_male_path,
+                            #                conv_index + 1)
+                            # generate_audio(voice2,
+                            #                conversation['text'],
+                            #                american_female_path,
+                            #                conv_index + 1)
+                            # generate_audio(voice3,
+                            #                conversation['text'],
+                            #                brit_male_path,
+                            #                conv_index + 1)
+                            # generate_audio(voice4,
+                            #                conversation['text'],
+                            #                brit_female_path,
+                            #                conv_index + 1)
+                    else:
+                        print(
+                            "No valid 'conversation' key found or it is not an array."
+                        )
+
+                    # 1. Listen
+                    merge_mp3_files(
+                        get_mp3_files(american_male_path),
+                        os.path.join(directory, f"American-Male-1.mp3"))
+
+                    merge_mp3_files(
+                        get_mp3_files(american_female_path),
+                        os.path.join(directory, f"American-Female-1.mp3"))
+
+                    merge_mp3_files(
+                        get_mp3_files(brit_male_path),
+                        os.path.join(directory, f"British-Male-1.mp3"))
+
+                    merge_mp3_files(
+                        get_mp3_files(brit_female_path),
+                        os.path.join(directory, f"British-Female-1.mp3"))
+
+                    # 2. Odd
+                    merge_mp3_files(
+                        get_mp3_files(american_male_path),
+                        os.path.join(directory, f"American-Male-2.mp3"), 500,
+                        'odd')
+
+                    merge_mp3_files(
+                        get_mp3_files(american_female_path),
+                        os.path.join(directory, f"American-Female-2.mp3"), 500,
+                        'odd')
+
+                    merge_mp3_files(
+                        get_mp3_files(brit_male_path),
+                        os.path.join(directory, f"British-Male-2.mp3"), 500,
+                        'odd')
+
+                    merge_mp3_files(
+                        get_mp3_files(brit_female_path),
+                        os.path.join(directory, f"British-Female-2.mp3"), 500,
+                        'odd')
+
+                    # 3. Even
+                    merge_mp3_files(
+                        get_mp3_files(american_male_path),
+                        os.path.join(directory, f"American-Male-3.mp3"), 500,
+                        'even')
+
+                    merge_mp3_files(
+                        get_mp3_files(american_female_path),
+                        os.path.join(directory, f"American-Female-3.mp3"), 500,
+                        'even')
+
+                    merge_mp3_files(
+                        get_mp3_files(brit_male_path),
+                        os.path.join(directory, f"British-Male-3.mp3"), 500,
+                        'even')
+
+                    merge_mp3_files(
+                        get_mp3_files(brit_female_path),
+                        os.path.join(directory, f"British-Female-3.mp3"), 500,
+                        'even')
+
+                    break
+            else:
+                print(f"No valid 'lesson' key found or it is not an array.")
+        except json.JSONDecodeError as e:
+            print(f"Error decoding JSON: {e}")
+
 
 if __name__ == "__main__":
-    base_directory = './lessons/conversational-english-lessons'
+    base_directory = './lessons/conversational-english-lessons/having-dinner-together'
     scan_directory(base_directory)

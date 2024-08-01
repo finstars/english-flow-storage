@@ -1,0 +1,6 @@
+requests
+pydub
+ffprobe==0.5
+ffprobe3==0.1.2
+ffprobe3-esarjeant==0.1.3
+ffmpeg==1.4
