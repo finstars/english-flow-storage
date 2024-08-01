@@ -6,7 +6,7 @@ import requests
 import shutil
 from pydub import AudioSegment
 
-key = ""
+key = "sk_2522737a976fe2e13d8406607094e2f0fe563c99899cc608"
 
 voices = {
     "American": {
@@ -115,6 +115,9 @@ def process_normal_directory(directory):
             if 'lesson' in lesson_data and isinstance(lesson_data['lesson'],
                                                       list):
                 for index, lesson_item in enumerate(lesson_data['lesson']):
+                    if index != 4:
+                        continue
+
                     voice1 = voices['American']['Male']
                     voice2 = voices['American']['Female']
                     voice3 = voices['British']['Male']
@@ -252,7 +255,7 @@ def process_conversational_directory(directory):
 
 
 if __name__ == "__main__":
-    base_directory = './lessons/tpr-storytelling-english-lessons/dane-stole-a-bike'
+    base_directory = './lessons/conversational-english-lessons/teasing-mom'
 
     if "conversational-english-lessons" in base_directory:
         process_conversational_directory(base_directory)
