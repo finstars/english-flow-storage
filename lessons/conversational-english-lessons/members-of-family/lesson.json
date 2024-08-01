@@ -1,0 +1,163 @@
+{
+    "lesson": [
+        {
+            "title": "Listen",
+            "conversation": [
+                {
+                    "text": "Hey, have you talked to Grandma lately?",
+                    "translations": {
+                        "Somali": "Haye, ma la hadashay ayeeyo dhawaan?"
+                    }
+                },
+                {
+                    "text": "Yeah, I called her yesterday. She's doing well. She was talking about how much she enjoyed the family gathering last weekend.",
+                    "translations": {
+                        "Somali": "Haa, waxaan wacay shalay. Way fiicantahay. Waxay ka sheekeyneysay sida ay ugu riyaaqday isu imaatinkii qoyska ee usbuucii hore."
+                    }
+                },
+                {
+                    "text": "Oh, that's nice to hear. Mom was really happy to see everyone together.",
+                    "translations": {
+                        "Somali": "Oo, waa wax wanaagsan in la maqlo. Hooyo aad bay ugu faraxday inay qof walba wada aragto."
+                    }
+                },
+                {
+                    "text": "Definitely. Mom put in so much effort to make everything perfect. Did Uncle John say anything about his new job?",
+                    "translations": {
+                        "Somali": "Haa, runtii. Hooyo dadaal badan bay gelisay si wax walba u noqdaan kuwo hagaagsan. Ma sheekaystay Adeer John wax ku saabsan shaqadiisa cusub?"
+                    }
+                },
+                {
+                    "text": "He did! He seems pretty excited about it. He's going to be traveling a lot, though.",
+                    "translations": {
+                        "Somali": "Haa, wuu sameeyay! Aad buu ugu faraxsan yahay. Si kastaba ha ahaatee, wuxuu safri doonaa marar badan."
+                    }
+                },
+                {
+                    "text": "That's great for him. I know he loves traveling. Have you seen our stepbrother Mike recently?",
+                    "translations": {
+                        "Somali": "Taasi waa wax fiican isaga. Waan ogahay inuu jecel yahay safarka. Ma aragtay walaalkeen Mike dhawaan?"
+                    }
+                },
+                {
+                    "text": "Not since last month. He mentioned he's been busy with college stuff. We should invite him over soon.",
+                    "translations": {
+                        "Somali": "Tan iyo bishii hore ma arkin. Wuxuu sheegay inuu mashquul ku ahaa waxbarashada jaamacadda. Waa inaan dhowaan casuunno."
+                    }
+                },
+                {
+                    "text": "Absolutely. Maybe we can plan a small get-together. Grandma would love that too.",
+                    "translations": {
+                        "Somali": "Haa, dhab ahaantii. Waxaa laga yaabaa inaan qorsheyno kulan yar. Ayeeyo iyaduna aad bay u jeclaan lahayd taas."
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Speak Yellow",
+            "conversation": [
+                {
+                    "text": "Hey, have you talked to Grandma lately?",
+                    "translations": {
+                        "Somali": "Haye, ma la hadashay ayeeyo dhawaan?"
+                    }
+                },
+                {
+                    "text": "Yeah, I called her yesterday. She's doing well. She was talking about how much she enjoyed the family gathering last weekend.",
+                    "translations": {
+                        "Somali": "Haa, waxaan wacay shalay. Way fiicantahay. Waxay ka sheekeyneysay sida ay ugu riyaaqday isu imaatinkii qoyska ee usbuucii hore."
+                    }
+                },
+                {
+                    "text": "Oh, that's nice to hear. Mom was really happy to see everyone together.",
+                    "translations": {
+                        "Somali": "Oo, waa wax wanaagsan in la maqlo. Hooyo aad bay ugu faraxday inay qof walba wada aragto."
+                    }
+                },
+                {
+                    "text": "Definitely. Mom put in so much effort to make everything perfect. Did Uncle John say anything about his new job?",
+                    "translations": {
+                        "Somali": "Haa, runtii. Hooyo dadaal badan bay gelisay si wax walba u noqdaan kuwo hagaagsan. Ma sheekaystay Adeer John wax ku saabsan shaqadiisa cusub?"
+                    }
+                },
+                {
+                    "text": "He did! He seems pretty excited about it. He's going to be traveling a lot, though.",
+                    "translations": {
+                        "Somali": "Haa, wuu sameeyay! Aad buu ugu faraxsan yahay. Si kastaba ha ahaatee, wuxuu safri doonaa marar badan."
+                    }
+                },
+                {
+                    "text": "That's great for him. I know he loves traveling. Have you seen our stepbrother Mike recently?",
+                    "translations": {
+                        "Somali": "Taasi waa wax fiican isaga. Waan ogahay inuu jecel yahay safarka. Ma aragtay walaalkeen Mike dhawaan?"
+                    }
+                },
+                {
+                    "text": "Not since last month. He mentioned he's been busy with college stuff. We should invite him over soon.",
+                    "translations": {
+                        "Somali": "Tan iyo bishii hore ma arkin. Wuxuu sheegay inuu mashquul ku ahaa waxbarashada jaamacadda. Waa inaan dhowaan casuunno."
+                    }
+                },
+                {
+                    "text": "Absolutely. Maybe we can plan a small get-together. Grandma would love that too.",
+                    "translations": {
+                        "Somali": "Haa, dhab ahaantii. Waxaa laga yaabaa inaan qorsheyno kulan yar. Ayeeyo iyaduna aad bay u jeclaan lahayd taas."
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Speak Green",
+            "conversation": [
+                {
+                    "text": "Hey, have you talked to Grandma lately?",
+                    "translations": {
+                        "Somali": "Haye, ma la hadashay ayeeyo dhawaan?"
+                    }
+                },
+                {
+                    "text": "Yeah, I called her yesterday. She's doing well. She was talking about how much she enjoyed the family gathering last weekend.",
+                    "translations": {
+                        "Somali": "Haa, waxaan wacay shalay. Way fiicantahay. Waxay ka sheekeyneysay sida ay ugu riyaaqday isu imaatinkii qoyska ee usbuucii hore."
+                    }
+                },
+                {
+                    "text": "Oh, that's nice to hear. Mom was really happy to see everyone together.",
+                    "translations": {
+                        "Somali": "Oo, waa wax wanaagsan in la maqlo. Hooyo aad bay ugu faraxday inay qof walba wada aragto."
+                    }
+                },
+                {
+                    "text": "Definitely. Mom put in so much effort to make everything perfect. Did Uncle John say anything about his new job?",
+                    "translations": {
+                        "Somali": "Haa, runtii. Hooyo dadaal badan bay gelisay si wax walba u noqdaan kuwo hagaagsan. Ma sheekaystay Adeer John wax ku saabsan shaqadiisa cusub?"
+                    }
+                },
+                {
+                    "text": "He did! He seems pretty excited about it. He's going to be traveling a lot, though.",
+                    "translations": {
+                        "Somali": "Haa, wuu sameeyay! Aad buu ugu faraxsan yahay. Si kastaba ha ahaatee, wuxuu safri doonaa marar badan."
+                    }
+                },
+                {
+                    "text": "That's great for him. I know he loves traveling. Have you seen our stepbrother Mike recently?",
+                    "translations": {
+                        "Somali": "Taasi waa wax fiican isaga. Waan ogahay inuu jecel yahay safarka. Ma aragtay walaalkeen Mike dhawaan?"
+                    }
+                },
+                {
+                    "text": "Not since last month. He mentioned he's been busy with college stuff. We should invite him over soon.",
+                    "translations": {
+                        "Somali": "Tan iyo bishii hore ma arkin. Wuxuu sheegay inuu mashquul ku ahaa waxbarashada jaamacadda. Waa inaan dhowaan casuunno."
+                    }
+                },
+                {
+                    "text": "Absolutely. Maybe we can plan a small get-together. Grandma would love that too.",
+                    "translations": {
+                        "Somali": "Haa, dhab ahaantii. Waxaa laga yaabaa inaan qorsheyno kulan yar. Ayeeyo iyaduna aad bay u jeclaan lahayd taas."
+                    }
+                }
+            ]
+        }
+    ]
+}
