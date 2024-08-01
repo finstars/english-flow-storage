@@ -6,7 +6,7 @@ import requests
 import shutil
 from pydub import AudioSegment
 
-key = "sk_2522737a976fe2e13d8406607094e2f0fe563c99899cc608"
+key = ""
 
 voices = {
     "American": {
