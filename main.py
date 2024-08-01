@@ -9,22 +9,23 @@ import shutil
 key = "sk_714da4661a8595a92693df2fb45be06c5ba73d30626c390e"
 
 voices = {
-    # "American": {
-    #     "Male": "", # Bill - Health Nutrition Videos
-    #     "Female": "" # Brittney Hart - Social Media Voice - Fun, Youthful & Informative
-    # },
+    "American": {
+        "Male": "TX3LPaxmHKxFdv7VOQHJ", # Alternative: Bill - Health Nutrition Videos
+        "Female": "cgSgspJ2msm6clMCkdW9" # Alternative: Brittney Hart - Social Media Voice - Fun, Youthful & Informative
+    },
     "British": {
-        "Male": "", # Johnny Kid  - Serious
-        "Female": "" # Ana
+        "Male": "CYw3kZ02Hs0563khs1Fj", # Alternative: Johnny Kid  - Serious
+        "Female": "ThT5KcBeYPX3keUQqHPh" # Alternative: Ana
     },
     # "Canadian": {
     #     "Male": "", # Haseeb - Canadian Narration
     #     "Female": "" # Danielle - Canadian Narrator
     # },
     # "Australian": {
-    #     "Male": "", # Will - Young Australian Male
+    #     "Male": "IKne3meq5aSn9XLyUdCD", # Will - Young Australian Male
     #     "Female": "" # Maya - Young Australian Female
     # },
+    # "Irish": "bVMeCyTHy58xNoL34h3p"
 }
 
 def generate_audio(voice, text, path, file_number):
@@ -112,9 +113,15 @@ def scan_directory(directory):
                                  # Create a folder for each lesson
                                 conv_folder_name = str(index + 1)
                                 conv_folder_path = os.path.join(root, conv_folder_name)
+
                                 lesson_path = os.path.join(conv_folder_path, f"{index + 1}.mp3")
+                                
+                                american_male_path = os.path.join(conv_folder_path, "American", "Male")
+                                american_female_path = os.path.join(conv_folder_path, "American", "Female")
+                                
                                 brit_male_path = os.path.join(conv_folder_path, "British", "Male")
                                 brit_female_path = os.path.join(conv_folder_path, "British", "Female")
+                                
                                 if not os.path.exists(conv_folder_path):
                                     # os.makedirs(conv_folder_path)
                                     os.makedirs(brit_male_path)
@@ -126,11 +133,15 @@ def scan_directory(directory):
                                         print(json.dumps(conversation['text'], indent=4))
                                         print(lesson_path)
 
-                                        voice1 = voices['British']['Male']
-                                        voice2 = voices['British']['Female']
+                                        voice1 = voices['American']['Male']
+                                        voice2 = voices['American']['Female']
+                                        voice3 = voices['British']['Male']
+                                        voice4 = voices['British']['Female']
 
-                                        generate_audio(voice1, conversation['text'], brit_male_path, conv_index + 1)
-                                        generate_audio(voice2, conversation['text'], brit_female_path, conv_index + 1)
+                                        generate_audio(voice1, conversation['text'], american_male_path, conv_index + 1)
+                                        generate_audio(voice2, conversation['text'], american_female_path, conv_index + 1)
+                                        generate_audio(voice3, conversation['text'], brit_male_path, conv_index + 1)
+                                        generate_audio(voice4, conversation['text'], brit_female_path, conv_index + 1)
                                 else:
                                     print(f"{sub_indent}    No valid 'conversation' key found or it is not an array.")
 
