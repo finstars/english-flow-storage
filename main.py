@@ -143,22 +143,15 @@ def scan_directory(directory):
                             voice3 = voices['British']['Male']
                             voice4 = voices['British']['Female']
 
-                            # generate_audio(voice1,
-                            #                conversation['text'],
-                            #                american_male_path,
-                            #                conv_index + 1)
-                            # generate_audio(voice2,
-                            #                conversation['text'],
-                            #                american_female_path,
-                            #                conv_index + 1)
-                            # generate_audio(voice3,
-                            #                conversation['text'],
-                            #                brit_male_path,
-                            #                conv_index + 1)
-                            # generate_audio(voice4,
-                            #                conversation['text'],
-                            #                brit_female_path,
-                            #                conv_index + 1)
+                            generate_audio(voice1, conversation['text'],
+                                           american_male_path, conv_index + 1)
+                            generate_audio(voice2, conversation['text'],
+                                           american_female_path,
+                                           conv_index + 1)
+                            generate_audio(voice3, conversation['text'],
+                                           brit_male_path, conv_index + 1)
+                            generate_audio(voice4, conversation['text'],
+                                           brit_female_path, conv_index + 1)
                     else:
                         print(
                             "No valid 'conversation' key found or it is not an array."
@@ -231,5 +224,5 @@ def scan_directory(directory):
 
 
 if __name__ == "__main__":
-    base_directory = './lessons/conversational-english-lessons/having-dinner-together'
+    base_directory = './lessons/conversational-english-lessons/members-of-family'
     scan_directory(base_directory)
