@@ -31,7 +31,7 @@ voices = {
 }
 
 
-def generate_audio(voice, text, path, file_number):
+def generate_audio(voice, text, path, filename):
     text = text.strip()
 
     url = f"https://api.elevenlabs.io/v1/text-to-speech/{voice}"
@@ -56,7 +56,7 @@ def generate_audio(voice, text, path, file_number):
 
     response = requests.post(url, json=data, headers=headers, stream=True)
     if response.status_code == 200:
-        with open(f"{path}/{file_number}.mp3", 'wb') as writer:
+        with open(f"{path}/{filename}.mp3", 'wb') as writer:
             for chunk in response.iter_content(chunk_size=8192):
                 writer.write(chunk)
         print(f"{text}.mp3 downloaded successfully!")
@@ -106,7 +106,35 @@ def merge_mp3_files(file_list,
     combined.export(output_file, format="mp3")
 
 
-def scan_directory(directory):
+def process_normal_directory(directory):
+    lesson_path = os.path.join(directory, 'lesson.json')
+
+    with open(lesson_path, 'r') as lesson_file:
+        try:
+            lesson_data = json.load(lesson_file)
+            if 'lesson' in lesson_data and isinstance(lesson_data['lesson'],
+                                                      list):
+                for index, lesson_item in enumerate(lesson_data['lesson']):
+                    voice1 = voices['American']['Male']
+                    voice2 = voices['American']['Female']
+                    voice3 = voices['British']['Male']
+                    voice4 = voices['British']['Female']
+
+                    generate_audio(voice1, lesson_item['text'], directory,
+                                   f"American-Male-{index + 1}")
+                    generate_audio(voice2, lesson_item['text'], directory,
+                                   f"American-Female-{index + 1}")
+                    generate_audio(voice3, lesson_item['text'], directory,
+                                   f"British-Male-{index + 1}")
+                    generate_audio(voice4, lesson_item['text'], directory,
+                                   f"British-Female-{index + 1}")
+            else:
+                print(f"No valid 'lesson' key found or it is not an array.")
+        except json.JSONDecodeError as e:
+            print(f"Error decoding JSON: {e}")
+
+
+def process_conversational_directory(directory):
     lesson_path = os.path.join(directory, 'lesson.json')
 
     with open(lesson_path, 'r') as lesson_file:
@@ -224,5 +252,9 @@ def scan_directory(directory):
 
 
 if __name__ == "__main__":
-    base_directory = './lessons/conversational-english-lessons/members-of-family'
-    scan_directory(base_directory)
+    base_directory = './lessons/tpr-storytelling-english-lessons/buying-a-bus-ticket'
+
+    if "conversational-english-lessons" in base_directory:
+        process_conversational_directory(base_directory)
+    else:
+        process_normal_directory(base_directory)
