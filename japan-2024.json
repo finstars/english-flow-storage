@@ -1,0 +1,21 @@
+{
+    "curr": {
+        "country": "Japan",
+        "flag": "em-jp",
+        "videos": [
+            {
+                "slug": "jo-koy-how-to-tell-asians-apart-only-by-their-accents",
+                "comedian": "Jo Koy",
+                "title": "How to Tell Asians Apart - ONLY by their Accents!",
+                "flag": "em-jp",
+                "country": "Japanese",
+                "youtubeUrl": "https://youtu.be/673PjkcBG00"
+            }
+        ]
+    },
+    "next": {
+        "slug": "this-week",
+        "country": "India",
+        "flag": "em-flag-in"
+    }
+}

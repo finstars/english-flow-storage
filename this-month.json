@@ -1,0 +1,25 @@
+{
+    "prev": {
+        "slug": "japan-2024",
+        "country": "Japan",
+        "flag": "em-jp"
+    },
+    "curr": {
+        "country": "India",
+        "flag": "em-flag-in",
+        "videos": [
+            {
+                "slug": "vir-das-are-you-indian-enough",
+                "comedian": "Vir Das",
+                "title": "Are you Indian enough?",
+                "flag": "em-flag-in",
+                "country": "Indian",
+                "youtubeUrl": "https://youtu.be/673PjkcBG00"
+            }
+        ]
+    },
+    "next": {
+        "country": "Spain",
+        "flag": "em-flag-es"
+    }
+}
