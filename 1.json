@@ -1,6 +1,23 @@
 {
     "videos": [
         {
+            "flag": "em-flag-za",
+            "slug": "trevor-noah-we-have-traffic-lights-but-we-dont-use-them",
+            "title": {
+                "Arabic": "تريفور نواه - لدينا إشارات مرور، لكننا لا نستخدمها",
+                "Bengali": "ট্রেভর নোয়া - আমাদের ট্রাফিক লাইট আছে, কিন্তু আমরা সেগুলি ব্যবহার করি না",
+                "Chinese": "特雷弗·诺亚 - 我们有交通灯，但我们不使用它们",
+                "English": "Trevor Noah - We have traffic lights, but we don't use them",
+                "French": "Trevor Noah - Nous avons des feux de signalisation, mais nous ne les utilisons pas",
+                "Hindi": "ट्रेवर नोहा - हमारे पास ट्रैफिक लाइट्स हैं, लेकिन हम उनका इस्तेमाल नहीं करते",
+                "Portuguese": "Trevor Noah - Temos semáforos, mas não os usamos",
+                "Romanian": "Trevor Noah - Avem semafoare, dar nu le folosim",
+                "Russian": "Тревор Ноа - У нас есть светофоры, но мы ими не пользуемся",
+                "Spanish": "Trevor Noah - Tenemos semáforos, pero no los usamos"
+            },
+            "youtubeUrl": "https://www.youtube.com/watch?v=88bD9f2MivI"
+        },
+        {
             "flag": "em-cn",
             "slug": "ronny-chieng-why-chinese-people-love-money",
             "title": {
