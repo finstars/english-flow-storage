@@ -1,6 +1,23 @@
 {
     "videos": [
         {
+            "flag": "em-cn",
+            "slug": "jimmy-o-yang-weird-american-things-i-wasn-t-used-to",
+            "title": {
+                "Arabic": "جيمي أو. يانغ - أشياء أمريكية غريبة لم أكن معتاداً عليها",
+                "Bengali": "জিমি ও. ইয়াং - অদ্ভুত আমেরিকান জিনিস যার সাথে আমি অভ্যস্ত ছিলাম না",
+                "Chinese": "杨伟 - 我不习惯的美国怪事",
+                "English": "Jimmy O. Yang - Weird American things I wasn't used to",
+                "French": "Jimmy O. Yang - Choses américaines étranges auxquelles je n'étais pas habitué",
+                "Hindi": "जिमी ओ. यांग - अजीब अमेरिकी चीजें जिनकी मुझे आदत नहीं थी",
+                "Portuguese": "Jimmy O. Yang - Coisas americanas estranhas às quais eu não estava acostumado",
+                "Romanian": "Jimmy O. Yang - Lucruri americane ciudate cu care nu eram obișnuit",
+                "Russian": "Джимми О. Янг - Странные американские вещи, к которым я не привык",
+                "Spanish": "Jimmy O. Yang - Cosas americanas raras a las que no estaba acostumbrado"
+            },
+            "youtubeUrl": "https://www.youtube.com/watch?v=GroZ_1EWbhg"
+        },
+        {
             "flag": "em-flag-za",
             "slug": "trevor-noah-we-have-traffic-lights-but-we-dont-use-them",
             "title": {
