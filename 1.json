@@ -1,6 +1,23 @@
 {
     "videos": [
         {
+            "flag": "em-jp",
+            "slug": "jo-koy-rice-is-rice",
+            "title": {
+                "Arabic": "جو كوي - الأرز هو الأرز",
+                "Bengali": "জো কয় - চাল হল চাল",
+                "Chinese": "乔·科伊 - 米就是米",
+                "English": "Jo Koy - Rice is rice",
+                "French": "Jo Koy - Le riz, c'est du riz",
+                "Hindi": "जो कोय - चावल चावल है",
+                "Portuguese": "Jo Koy - Arroz é arroz",
+                "Romanian": "Jo Koy - Orezul este orez",
+                "Russian": "Джо Кой - Рис есть рис",
+                "Spanish": "Jo Koy - El arroz es arroz"
+            },
+            "youtubeUrl": "https://www.youtube.com/watch?v=J9k0x1JsQ-U"
+        },
+        {
             "flag": "em-us",
             "slug": "kevin-hart-i-was-an-unattractive-person-in-that-conversation",
             "title": {
