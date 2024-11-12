@@ -1,6 +1,23 @@
 {
     "videos": [
         {
+            "flag": "em-us",
+            "slug": "drew-lynch-everyday-is-that-day",
+            "title": {
+                "Arabic": "درو لينش - كل يوم هو هذا اليوم",
+                "Bengali": "ড্রু লিঞ্চ - প্রতিদিনই সেই দিন",
+                "Chinese": "德鲁·林奇 - 每天都是那一天",
+                "English": "Drew Lynch - Everyday is that day",
+                "French": "Drew Lynch - Chaque jour est ce jour-là",
+                "Hindi": "ड्रू लिंच - हर दिन वही दिन है",
+                "Portuguese": "Drew Lynch - Todo dia é esse dia",
+                "Romanian": "Drew Lynch - În fiecare zi este acea zi",
+                "Russian": "Дрю Линч - Каждый день — это тот день",
+                "Spanish": "Drew Lynch - Cada día es ese día"
+            },
+            "youtubeUrl": "https://www.youtube.com/watch?v=v3I0YsfMJS8"
+        },
+        {
             "flag": "em-cn",
             "slug": "jimmy-o-yang-eventually-i-became-a-good-asian-american",
             "title": {
