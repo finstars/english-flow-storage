@@ -3,6 +3,23 @@
     "hasNext": true,
     "videos": [
         {
+            "flag": "em-us",
+            "slug": "john-mulaney",
+            "title": {
+                "Arabic": "جون مولاني - أي شخص رأى قضيبي والتقى بوالدي يجب أن يموت.",
+                "Bengali": "জন মুলানে - যে কেউ আমার লিঙ্গ দেখেছে এবং আমার বাবা-মায়ের সাথে দেখা করেছে তাকে মরতে হবে।",
+                "Chinese": "约翰·穆拉尼 - 任何看过我小弟弟并见过我父母的人都该死。",
+                "English": "John Mulaney - Anyone who's seen my dick and met my parents needs to die.",
+                "French": "John Mulaney - Toute personne qui a vu mon pénis et rencontré mes parents doit mourir.",
+                "Hindi": "जॉन मुलैनी - जिसने भी मेरा लिंग देखा है और मेरे माता-पिता से मिला है, उसे मरना चाहिए।",
+                "Portuguese": "John Mulaney - Qualquer um que tenha visto meu pau e conhecido meus pais precisa morrer.",
+                "Romanian": "John Mulaney - Oricine mi-a văzut penisul și mi-a cunoscut părinții trebuie să moară.",
+                "Russian": "Джон Мулейни - Каждый, кто видел мой член и встретился с моими родителями, должен умереть.",
+                "Spanish": "John Mulaney - Cualquiera que haya visto mi pene y conocido a mis padres debe morir."
+            },
+            "youtubeUrl": "https://www.youtube.com/watch?v=lWOSc42Ga5g&t=34s&pp=ygUHbXVsYW5leQ%3D%3D"
+        },
+        {
             "flag": "em-jp",
             "slug": "jo-koy-rice-is-rice",
             "title": {
