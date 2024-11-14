@@ -4,6 +4,23 @@
     "videos": [
         {
             "flag": "em-us",
+            "slug": "cody-woods",
+            "title": {
+                "Arabic": "كودي وودز - الناس السود الفقراء يرتدون بطريقة مختلفة عن الناس البيض الفقراء",
+                "Bengali": "কোডি উডস - গরিব কালো মানুষরা গরিব সাদা মানুষদের থেকে আলাদা পোশাক পরেন",
+                "Chinese": "Cody Woods - 贫穷的黑人和贫穷的白人穿着不同",
+                "English": "Cody Woods - Poor black people dress different than poor white people",
+                "French": "Cody Woods - Les noirs pauvres s'habillent différemment des blancs pauvres",
+                "Hindi": "कोडी वुड्स - गरीब काले लोग गरीब सफेद लोगों से अलग तरीके से कपड़े पहनते हैं",
+                "Portuguese": "Cody Woods - Pessoas negras pobres se vestem de maneira diferente das pessoas brancas pobres",
+                "Romanian": "Cody Woods - Oamenii negri săraci se îmbracă diferit față de oamenii albi săraci",
+                "Russian": "Коди Вудс - Бедные черные люди одеваются иначе, чем бедные белые люди",
+                "Spanish": "Cody Woods - Las personas negras pobres se visten diferente a las personas blancas pobres"        
+            },
+            "youtubeUrl": "https://www.youtube.com/watch?v=QQLDZSHL-VI"
+        },
+        {
+            "flag": "em-us",
             "slug": "john-mulaney",
             "title": {
                 "Arabic": "جون مولاني - الزواج لطيف للغاية",
