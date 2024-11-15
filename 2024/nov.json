@@ -3,6 +3,23 @@
     "hasNext": false,
     "videos": [
         {
+            "flag": "em-flag-jm",
+            "slug": "drew-thomas",
+            "title": {
+                "Arabic": "درو توماس - المواعدة هي الأسوأ",
+                "Bengali": "ড্রু থমাস - ডেটিং সবচেয়ে খারাপ",
+                "Chinese": "德鲁·托马斯 - 恋爱是最糟糕的",
+                "English": "Drew Thomas - Dating is the worst",
+                "French": "Drew Thomas - Les rencontres, c'est le pire",
+                "Hindi": "ड्रू थॉमस - डेटिंग सबसे खराब है",
+                "Portuguese": "Drew Thomas - Namoro é o pior",
+                "Romanian": "Drew Thomas - Întâlnirile sunt cele mai proaste",
+                "Russian": "Дрю Томас - Свидания - это худшее",
+                "Spanish": "Drew Thomas - Las citas son lo peor"
+            },
+            "youtubeUrl": "https://www.youtube.com/watch?v=vUJxyIFAwVU"
+        },
+        {
             "flag": "em-us",
             "slug": "cody-woods",
             "title": {
@@ -15,7 +32,7 @@
                 "Portuguese": "Cody Woods - Pessoas negras pobres se vestem de maneira diferente das pessoas brancas pobres",
                 "Romanian": "Cody Woods - Oamenii negri săraci se îmbracă diferit față de oamenii albi săraci",
                 "Russian": "Коди Вудс - Бедные черные люди одеваются иначе, чем бедные белые люди",
-                "Spanish": "Cody Woods - Las personas negras pobres se visten diferente a las personas blancas pobres"        
+                "Spanish": "Cody Woods - Las personas negras pobres se visten diferente a las personas blancas pobres"
             },
             "youtubeUrl": "https://www.youtube.com/watch?v=QQLDZSHL-VI"
         },
